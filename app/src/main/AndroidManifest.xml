@@ -1,27 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.google.sample.cast.atvreceiver">
+    package="com.acar.sample.cast.carreceiver">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
     <uses-feature
         android:name="android.hardware.touchscreen"
         android:required="false" />
-    <uses-feature
-        android:name="android.software.leanback"
-        android:required="true" />
 
     <application
         android:allowBackup="true"
         android:icon="@drawable/cast_video"
         android:label="@string/app_name"
-        android:name="com.google.sample.cast.atvreceiver.CastDemoApplication"
+        android:name="com.acar.sample.cast.carreceiver.CastDemoApplication"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
         <activity
-            android:name="com.google.sample.cast.atvreceiver.ui.MainActivity"
+            android:name="com.acar.sample.cast.carreceiver.ui.MainActivity"
             android:banner="@drawable/cast_video"
             android:icon="@drawable/cast_video"
             android:label="@string/app_name"
@@ -37,7 +34,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.google.sample.cast.atvreceiver.ui.PlaybackActivity"
+            android:name="com.acar.sample.cast.carreceiver.ui.PlaybackActivity"
             android:exported="true"
             android:launchMode="singleTask">
             <intent-filter>
@@ -56,6 +53,6 @@
         </activity>
         <meta-data
             android:name="com.google.android.gms.cast.tv.RECEIVER_OPTIONS_PROVIDER_CLASS_NAME"
-            android:value="com.google.sample.cast.atvreceiver.CastReceiverOptionsProvider" />
+            android:value="com.acar.sample.cast.atvreceiver.CastReceiverOptionsProvider" />
     </application>
 </manifest>

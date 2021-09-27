@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.sample.cast.atvreceiver.ui;
+package com.acar.sample.cast.carreceiver.ui;
 
 import android.content.Intent;
 import android.net.Uri;
@@ -52,10 +52,10 @@ import com.google.android.gms.cast.tv.media.MediaStatusWriter;
 import com.google.android.gms.common.images.WebImage;
 import com.google.android.gms.tasks.Task;
 import com.google.android.gms.tasks.Tasks;
-import com.google.sample.cast.atvreceiver.R;
-import com.google.sample.cast.atvreceiver.data.Movie;
-import com.google.sample.cast.atvreceiver.data.MovieList;
-import com.google.sample.cast.atvreceiver.player.VideoPlayerGlue;
+import com.acar.sample.cast.carreceiver.R;
+import com.acar.sample.cast.carreceiver.data.Movie;
+import com.acar.sample.cast.carreceiver.data.MovieList;
+import com.acar.sample.cast.carreceiver.player.VideoPlayerGlue;
 import java.util.List;
 import org.json.JSONException;
 import org.json.JSONObject;

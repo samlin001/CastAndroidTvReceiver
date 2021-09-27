@@ -13,18 +13,22 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.sample.cast.atvreceiver;
+package com.acar.sample.cast.carreceiver.ui;
 
-import android.content.Context;
-import com.google.android.gms.cast.tv.CastReceiverOptions;
-import com.google.android.gms.cast.tv.ReceiverOptionsProvider;
+import android.app.Activity;
+import android.os.Bundle;
 
-public class CastReceiverOptionsProvider implements ReceiverOptionsProvider {
+import com.acar.sample.cast.carreceiver.R;
+/**
+ * Main Activity class that loads {@link MainFragment}.
+ */
+public class MainActivity extends Activity {
+
+    public static final String MOVIE = "Movie";
+
     @Override
-    public CastReceiverOptions getOptions(Context context) {
-        return new CastReceiverOptions.Builder(context)
-                .setVersionCode(1)
-                .setStatusText("Cast ATV Sample Receiver")
-                .build();
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
     }
 }

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.sample.cast.atvreceiver.data;
+package com.acar.sample.cast.carreceiver.data;
 
 import android.util.Log;
 

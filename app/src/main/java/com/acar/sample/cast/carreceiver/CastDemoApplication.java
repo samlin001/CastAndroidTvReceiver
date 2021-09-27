@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.sample.cast.atvreceiver;
+package com.acar.sample.cast.carreceiver;
 
 import android.app.Application;
 

@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.sample.cast.atvreceiver.ui;
+package com.acar.sample.cast.carreceiver.ui;
 
 import android.app.LoaderManager;
 import android.content.Intent;
@@ -42,11 +42,11 @@ import androidx.leanback.widget.RowPresenter;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.request.target.SimpleTarget;
 import com.bumptech.glide.request.transition.Transition;
-import com.google.sample.cast.atvreceiver.R;
-import com.google.sample.cast.atvreceiver.data.Movie;
-import com.google.sample.cast.atvreceiver.data.MovieList;
-import com.google.sample.cast.atvreceiver.data.MovieListLoader;
-import com.google.sample.cast.atvreceiver.presenter.CardPresenter;
+import com.acar.sample.cast.carreceiver.R;
+import com.acar.sample.cast.carreceiver.data.Movie;
+import com.acar.sample.cast.carreceiver.data.MovieList;
+import com.acar.sample.cast.carreceiver.data.MovieListLoader;
+import com.acar.sample.cast.carreceiver.presenter.CardPresenter;
 
 import java.util.Collections;
 import java.util.List;
