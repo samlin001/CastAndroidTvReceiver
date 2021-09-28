@@ -53,6 +53,6 @@
         </activity>
         <meta-data
             android:name="com.google.android.gms.cast.tv.RECEIVER_OPTIONS_PROVIDER_CLASS_NAME"
-            android:value="com.acar.sample.cast.atvreceiver.CastReceiverOptionsProvider" />
+            android:value="com.acar.sample.cast.carreceiver.CastReceiverOptionsProvider" />
     </application>
 </manifest>
